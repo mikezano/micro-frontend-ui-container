@@ -1,0 +1,9 @@
+.navbar {
+  --size: calc(var(--zano-navbar-height) / 2);
+  height: var(--size);
+  padding: calc(var(--size) / 2);
+  background-color: var(--zano-gray-dark2);
+
+  display: flex;
+  gap: 1rem;
+}
