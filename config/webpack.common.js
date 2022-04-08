@@ -22,11 +22,15 @@ module.exports = {
       {
         test: /\.s[ac]ss$/i,
         use: [
-          // Creates `style` nodes from JS strings
-          "style-loader",
-          // Translates CSS into CommonJS
-          "css-loader",
-          // Compiles Sass to CSS
+          {
+            loader: "file-loader",
+            options: { outputPath: "css/", name: "[name].min.css" },
+          },
+          // // Creates `style` nodes from JS strings
+          // "style-loader",
+          // // Translates CSS into CommonJS
+          // "css-loader",
+          // // Compiles Sass to CSS
           "sass-loader",
         ],
       },
