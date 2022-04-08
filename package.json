@@ -27,5 +27,17 @@
     "webpack-cli": "^4.2.0",
     "webpack-dev-server": "^3.11.0",
     "webpack-merge": "^5.2.0"
-  }
+  },
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikezano/micro-frontend-ui-container.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mikezano/micro-frontend-ui-container/issues"
+  },
+  "homepage": "https://github.com/mikezano/micro-frontend-ui-container#readme"
 }
