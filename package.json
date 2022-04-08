@@ -29,7 +29,7 @@
     "webpack-merge": "^5.2.0"
   },
   "description": "",
-  "main": "index.js",
+  "main": "dist/.Global.min.css",
   "author": "",
   "license": "ISC",
   "repository": {
