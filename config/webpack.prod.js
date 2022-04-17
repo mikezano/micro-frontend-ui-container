@@ -17,6 +17,7 @@ const prodConfig = {
       remotes: {
         react: `react@${domain}/ReactApp/latest/remoteEntry.js`,
         vue: `vue@${domain}/VueApp/latest/remoteEntry.js`,
+        styles: `styles@${domain}/Styles/latest/remoteEntry.js`,
       },
       shared: packageJson.dependencies,
     }),
