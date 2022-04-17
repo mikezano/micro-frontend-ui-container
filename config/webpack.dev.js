@@ -26,6 +26,7 @@ const devConfig = {
       remotes: {
         react: "react@http://localhost:8081/remoteEntry.js",
         vue: "vue@http://localhost:8082/remoteEntry.js",
+        styles: "styles@http://localhost:8083/remoteEntry.js",
       },
       shared: packageJson.dependencies,
     }),

@@ -4,10 +4,7 @@ import { createBrowserHistory } from "history";
 import MFEApp from "./components/MFEApp";
 import ReactApp from "./components/ReactApp";
 import VueApp from "./components/VueApp";
-
-/*Styles*/
-import "./scss/.Global.scss";
-import "open-iconic/font/css/open-iconic.scss";
+import "styles/StylesApp";
 
 /*Framework icons*/
 import reactLogo from "./assets/react.png";
@@ -31,13 +28,15 @@ const Header = () => (
 
 export default () => {
   return (
-    <Router history={history}>
-      <Header />
-      <Switch>
-        <Route path="/vue" component={VueApp} />
-        <Route path="/react" component={ReactApp} />
-        <Route path="/" component={MFEApp} />
-      </Switch>
-    </Router>
+    <>
+      <Router history={history}>
+        <Header />
+        <Switch>
+          <Route path="/vue" component={VueApp} />
+          <Route path="/react" component={ReactApp} />
+          <Route path="/" component={MFEApp} />
+        </Switch>
+      </Router>
+    </>
   );
 };
